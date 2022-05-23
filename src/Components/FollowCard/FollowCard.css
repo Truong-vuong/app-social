@@ -1,0 +1,56 @@
+.FollowCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.FollowCard__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FollowCard h2 {
+    font-size: 1rem;
+    color: var(--orange);
+    margin: 1rem 0;
+}
+
+.follower {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.follower img {
+    width: 3rem;
+    height: 3rem;
+    border-radius:50%;
+}
+
+.follower__name {
+    display: flex;
+    flex-direction: column;
+}
+.follower__name span:nth-child(1){
+    font-size: 1rem;
+    font-weight: 600;
+}
+.follower__name span:nth-child(2){
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.showmore {
+    margin: 1rem;
+    text-align: center;
+}
+.showmore span {
+    color: var(--orange);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.showmore span:hover {
+    font-weight: 700;
+}

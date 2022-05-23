@@ -1,0 +1,83 @@
+.ProfileCard {
+    display: flex;
+    flex-direction: column;
+    overflow-x: clip;
+    border-radius:18px;
+    background-color:var(--cardColor)
+}
+
+.profileCard__image {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileCard__image img:nth-child(1) {
+    width: 100%;
+}
+
+.profileCard__image img:nth-child(2) {
+    width: 6rem;
+    border-radius:50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.profileCard__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.profileCard__info span:nth-child(1) {
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin-bottom: .5rem;
+}
+
+.profileCard__info span:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.profileCard__follow {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+.profileCard__follow>span {
+    height: 100%;
+    width: 1px;
+    background-color:var(--black);
+}
+
+.profileCard__follow__item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profileCard__follow__item span:nth-child(1) {
+    font-weight: 600;
+}
+.profileCard__follow__item span:nth-child(2) {
+    font-weight: 300;
+    font-size: .8rem;
+}
+
+.profileCard__link {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+.profileCard__link span {
+    color: var(--orange);
+    font-weight: 700;
+    cursor: pointer;
+}

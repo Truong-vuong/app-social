@@ -1,0 +1,30 @@
+.SearchBox {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search {
+    display: flex;
+    background-color: var(--inputColor);
+    border-radius: 10px;
+    gap: 0.5rem;
+}
+
+.search input {
+    padding: 4px 0;
+    border: none ;
+    outline: none ;
+    background-color:transparent;
+    padding:8px 4px;
+}
+
+.search__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--orange);
+    border-radius: 4px;
+    padding: 8px;
+    color: var(--white);
+}
