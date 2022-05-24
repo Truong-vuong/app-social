@@ -4,6 +4,9 @@
     gap: 1rem;
 }
 
+.SearchBox img {
+    width: 3rem;
+}
 .search {
     display: flex;
     background-color: var(--inputColor);

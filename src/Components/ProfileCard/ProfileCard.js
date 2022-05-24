@@ -1,10 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./ProfileCard.css";
 import Cover from "../../img/cover.jpg";
 import ProfileCardImg from "../../img/profileImg.jpg";
 
 const ProfileCard = () => {
+  const profilePage = true;
+
   return (
     <div className='ProfileCard'>
       <div className='profileCard__image'>
@@ -26,10 +29,19 @@ const ProfileCard = () => {
           <span>10</span>
           <span>Following</span>
         </div>
+        <span></span>
+        {profilePage && (
+          <div className='profileCard__follow__item'>
+            <span>5</span>
+            <span>Posts</span>
+          </div>
+        )}
       </div>
       <hr />
       <div className='profileCard__link'>
-        <span>My Profile</span>
+        <Link to='/profile'>
+          <span>My Profile</span>
+        </Link>
       </div>
     </div>
   );

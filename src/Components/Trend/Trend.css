@@ -1,0 +1,16 @@
+.Trend {
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.trend__info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.trend__name {
+    font-size: 1rem;
+    font-weight: 700;
+}

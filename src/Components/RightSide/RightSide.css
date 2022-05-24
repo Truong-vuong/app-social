@@ -1,0 +1,9 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+button:hover {
+    border:1px solid var(--orange)
+}
